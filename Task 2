@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    /*
+    //Task 2
+    const int n = 31; // кількість днів у січні
+    int temps[n] = { -3, -2, 0, 2, 1, -5, -7, -6, -4, -2, 0, 1, 3, 4, 2, 1, -4, -5, -3, -1, 0, 2, 3, 2, 1, -1, -2, -3, -5, -6, -4 }; // температури за кожен день
+    int mark = 0; // мітка температури
+    int sum = 0; // сума температур за місяць
+    int count = 0; // кількість разів, коли температура опускалася нижче мітки
+
+    // обчислюємо середню температуру
+    for (int i = 0; i < n; i++) {
+        sum += temps[i];
+    }
+    float average = (float)sum / n;
+
+    // обчислюємо кількість разів, коли температура опускалася нижче мітки
+    for (int i = 0; i < n; i++) {
+        if (temps[i] < mark) {
+            count++;
+        }
+    }
+    
+
+    cout << "Average temperature for the month: " << average << endl;
+    cout << "The temperature dropped below " << mark << " degrees: " << count << " times" << endl;
+    */
