@@ -26,4 +26,5 @@ int main()
 
     cout << "Average temperature for the month: " << average << endl;
     cout << "The temperature dropped below " << mark << " degrees: " << count << " times" << endl;
+    }
     */
