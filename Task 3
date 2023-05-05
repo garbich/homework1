@@ -1,0 +1,24 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+//Task 3
+    int array[] = { 2, 2, 3, 4, 5, 6, 2, 3, 4, 7, 8, 9, 5, 10 };
+    const int array_size = sizeof(array) / sizeof(array[0]);
+
+    // Перевіряємо кожен елемент масиву на повторення
+    for (int i = 0; i < array_size; ++i) {
+        int count = 0;
+        for (int j = i + 1; j < array_size; ++j) {
+            if (array[i] == array[j]) {
+                count++;
+            }
+        }
+        // Якщо елемент повторюється два і більше разів, то виводимо його
+        if (count >= 1) {
+            cout << array[i] << " repeated " << count + 1 << " times" << endl;
+        }
+    }
+
+}
